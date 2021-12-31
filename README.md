@@ -12,7 +12,7 @@ For more details regarding the project, refer to the PDF report included in this
 
 ## References
 <a id="1">[1]</a>
-Singh, Praveer & Komodakis, Nikos. (2018). Cloud-Gan: Cloud Re- moval for Sentinel-2 Imagery Using a Cyclic Consistent Generative Adversarial Networks. 1772-1775. 10.1109/IGARSS.2018.8519033.
+Zhu, Jun-Yan & Park, Taesung & Isola, Phillip & Efros, Alexei. (2017). Unpaired Image-to-Image Translation Using Cycle-Consistent Adversarial Networks. 2242-2251. 10.1109/ICCV.2017.244.
 
 <a id="2">[2]</a>
-Zhu, Jun-Yan & Park, Taesung & Isola, Phillip & Efros, Alexei. (2017). Unpaired Image-to-Image Translation Using Cycle-Consistent Adversarial Networks. 2242-2251. 10.1109/ICCV.2017.244.
+Singh, Praveer & Komodakis, Nikos. (2018). Cloud-Gan: Cloud Re- moval for Sentinel-2 Imagery Using a Cyclic Consistent Generative Adversarial Networks. 1772-1775. 10.1109/IGARSS.2018.8519033.
