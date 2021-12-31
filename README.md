@@ -1,2 +1,11 @@
 # Clear-GAN
-Clear-GAN: Cloud Removal in Satellite Imagery via Cyclic Multispectral Generative Adversarial Networks
+
+A PyTorch implementation of Clear-GAN, a deep learning approach for cloud removal in satellite imagery. Clear-GAN relies on a CycleGAN architecture (as proposed in [[1]](#1)) and is a variation of the model used in Cloud-GAN [[2]](#2). 
+
+A CycleGAN architecture was implemented as it eliminates the constraint of training on a paired dataset (cloudy/cloudless images of the same geographical location on the same day).
+
+In addition to RGB input channels, Clear-GAN uses a Near-Infrared (NIR) input channel as NIR displays partial cloud penetration abilities. The addition of an NIR input channel may help Clear-GAN reveal more low-level landscape features and ultimately enhance the quality of the output image.
+
+The included Jupyter Notebook file contains the detailed implementation of Clear-GAN and automatically downloads a custom-collected dataset. The model was trained for 70 epochs (at least 100-200 epochs are required for satisfactory results; could not train for longer due to time and computational constraints).
+
+For more details regarding the project, refer to the PDF report included in this repo.
